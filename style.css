@@ -1,0 +1,78 @@
+html, body, div#map { 
+    width:100%; 
+    height:100%; 
+    margin:0; 
+    overflow: hidden;
+    font-family: "Roboto Mono",sans-serif;
+}
+
+div#topbar {
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    z-index: 500;
+    padding: 0.5em 1em 1em 1em;
+    overflow: hidden;
+}
+
+div#status {
+    width: 50em;
+    height:100%; 
+    float: right;
+    padding: 4.5em 1em 1em 1em;
+    overflow: hidden;
+    text-align: center;
+}
+
+div#map { 
+    width:auto; 
+    height:100%; 
+    margin:0; 
+    overflow: hidden;
+}
+
+div#tracktable {
+    overflow-y: scroll;
+}
+
+div#topbar {
+    background-color: rgb(59, 219, 255);
+    background-image: linear-gradient(0deg,  #ffffff 30%, rgb(59, 219, 255) 70%);
+}
+span#title {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+span#description {
+    font-size: 1em;
+    margin-left: 1em;
+}
+
+div#status {
+    background-color: #ffffff;
+    font-size: 1em;
+}
+
+table.tracktable {
+    margin-top: auto;
+    font-size: 1em;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.tracktable, table.tracktable th, table.tracktable td {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    cursor: default;
+}
+
+table.tracktable th { 
+    background-color: #458fff;
+}
+
+div.tablenodata {
+    margin: 0.5em;
+    text-align: center;
+    font-weight: bold;
+}
